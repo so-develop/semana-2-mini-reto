@@ -1,0 +1,14 @@
+for numero in 0...100 {
+    if numero%5 == 0 {
+        print("\(numero)Bingo!!!")
+    }
+    else if numero%2 == 0 {
+        print("\(numero)Par!!!")
+    }
+    else if numero%2 != 0 {
+        print("\(numero)Impar!!!")
+    }
+    else if numero>=30 && numero<=40 {
+        print("\(numero)Viva Swift!!!")
+    }
+}
