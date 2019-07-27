@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		349C8EFC22EBDBC00037202B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C8EFB22EBDBC00037202B /* AppDelegate.swift */; };
+		349C8EFE22EBDBC00037202B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C8EFD22EBDBC00037202B /* ViewController.swift */; };
+		349C8F0122EBDBC00037202B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349C8EFF22EBDBC00037202B /* Main.storyboard */; };
+		349C8F0322EBDBC10037202B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349C8F0222EBDBC10037202B /* Assets.xcassets */; };
+		349C8F0622EBDBC10037202B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349C8F0422EBDBC10037202B /* LaunchScreen.storyboard */; };
+		349C8F1122EBDBC10037202B /* semana_2__mini_retoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C8F1022EBDBC10037202B /* semana_2__mini_retoTests.swift */; };
+		349C8F1C22EBDBC10037202B /* semana_2__mini_retoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C8F1B22EBDBC10037202B /* semana_2__mini_retoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		349C8F0D22EBDBC10037202B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349C8EF022EBDBC00037202B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349C8EF722EBDBC00037202B;
+			remoteInfo = "semana 2: mini reto";
+		};
+		349C8F1822EBDBC10037202B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349C8EF022EBDBC00037202B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349C8EF722EBDBC00037202B;
+			remoteInfo = "semana 2: mini reto";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		349C8EF822EBDBC00037202B /* semana 2: mini reto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "semana 2: mini reto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349C8EFB22EBDBC00037202B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		349C8EFD22EBDBC00037202B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		349C8F0022EBDBC00037202B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		349C8F0222EBDBC10037202B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		349C8F0522EBDBC10037202B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		349C8F0722EBDBC10037202B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349C8F0C22EBDBC10037202B /* semana 2: mini retoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "semana 2: mini retoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349C8F1022EBDBC10037202B /* semana_2__mini_retoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = semana_2__mini_retoTests.swift; sourceTree = "<group>"; };
+		349C8F1222EBDBC10037202B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349C8F1722EBDBC10037202B /* semana 2: mini retoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "semana 2: mini retoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349C8F1B22EBDBC10037202B /* semana_2__mini_retoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = semana_2__mini_retoUITests.swift; sourceTree = "<group>"; };
+		349C8F1D22EBDBC10037202B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		349C8EF522EBDBC00037202B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349C8F0922EBDBC10037202B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349C8F1422EBDBC10037202B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		349C8EEF22EBDBC00037202B = {
+			isa = PBXGroup;
+			children = (
+				349C8EFA22EBDBC00037202B /* semana 2: mini reto */,
+				349C8F0F22EBDBC10037202B /* semana 2: mini retoTests */,
+				349C8F1A22EBDBC10037202B /* semana 2: mini retoUITests */,
+				349C8EF922EBDBC00037202B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		349C8EF922EBDBC00037202B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349C8EF822EBDBC00037202B /* semana 2: mini reto.app */,
+				349C8F0C22EBDBC10037202B /* semana 2: mini retoTests.xctest */,
+				349C8F1722EBDBC10037202B /* semana 2: mini retoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		349C8EFA22EBDBC00037202B /* semana 2: mini reto */ = {
+			isa = PBXGroup;
+			children = (
+				349C8EFB22EBDBC00037202B /* AppDelegate.swift */,
+				349C8EFD22EBDBC00037202B /* ViewController.swift */,
+				349C8EFF22EBDBC00037202B /* Main.storyboard */,
+				349C8F0222EBDBC10037202B /* Assets.xcassets */,
+				349C8F0422EBDBC10037202B /* LaunchScreen.storyboard */,
+				349C8F0722EBDBC10037202B /* Info.plist */,
+			);
+			path = "semana 2: mini reto";
+			sourceTree = "<group>";
+		};
+		349C8F0F22EBDBC10037202B /* semana 2: mini retoTests */ = {
+			isa = PBXGroup;
+			children = (
+				349C8F1022EBDBC10037202B /* semana_2__mini_retoTests.swift */,
+				349C8F1222EBDBC10037202B /* Info.plist */,
+			);
+			path = "semana 2: mini retoTests";
+			sourceTree = "<group>";
+		};
+		349C8F1A22EBDBC10037202B /* semana 2: mini retoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				349C8F1B22EBDBC10037202B /* semana_2__mini_retoUITests.swift */,
+				349C8F1D22EBDBC10037202B /* Info.plist */,
+			);
+			path = "semana 2: mini retoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		349C8EF722EBDBC00037202B /* semana 2: mini reto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349C8F2022EBDBC10037202B /* Build configuration list for PBXNativeTarget "semana 2: mini reto" */;
+			buildPhases = (
+				349C8EF422EBDBC00037202B /* Sources */,
+				349C8EF522EBDBC00037202B /* Frameworks */,
+				349C8EF622EBDBC00037202B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "semana 2: mini reto";
+			productName = "semana 2: mini reto";
+			productReference = 349C8EF822EBDBC00037202B /* semana 2: mini reto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		349C8F0B22EBDBC10037202B /* semana 2: mini retoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349C8F2322EBDBC10037202B /* Build configuration list for PBXNativeTarget "semana 2: mini retoTests" */;
+			buildPhases = (
+				349C8F0822EBDBC10037202B /* Sources */,
+				349C8F0922EBDBC10037202B /* Frameworks */,
+				349C8F0A22EBDBC10037202B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349C8F0E22EBDBC10037202B /* PBXTargetDependency */,
+			);
+			name = "semana 2: mini retoTests";
+			productName = "semana 2: mini retoTests";
+			productReference = 349C8F0C22EBDBC10037202B /* semana 2: mini retoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		349C8F1622EBDBC10037202B /* semana 2: mini retoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349C8F2622EBDBC10037202B /* Build configuration list for PBXNativeTarget "semana 2: mini retoUITests" */;
+			buildPhases = (
+				349C8F1322EBDBC10037202B /* Sources */,
+				349C8F1422EBDBC10037202B /* Frameworks */,
+				349C8F1522EBDBC10037202B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349C8F1922EBDBC10037202B /* PBXTargetDependency */,
+			);
+			name = "semana 2: mini retoUITests";
+			productName = "semana 2: mini retoUITests";
+			productReference = 349C8F1722EBDBC10037202B /* semana 2: mini retoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		349C8EF022EBDBC00037202B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Saul Ruiz";
+				TargetAttributes = {
+					349C8EF722EBDBC00037202B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					349C8F0B22EBDBC10037202B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 349C8EF722EBDBC00037202B;
+					};
+					349C8F1622EBDBC10037202B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 349C8EF722EBDBC00037202B;
+					};
+				};
+			};
+			buildConfigurationList = 349C8EF322EBDBC00037202B /* Build configuration list for PBXProject "semana 2: mini reto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 349C8EEF22EBDBC00037202B;
+			productRefGroup = 349C8EF922EBDBC00037202B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				349C8EF722EBDBC00037202B /* semana 2: mini reto */,
+				349C8F0B22EBDBC10037202B /* semana 2: mini retoTests */,
+				349C8F1622EBDBC10037202B /* semana 2: mini retoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		349C8EF622EBDBC00037202B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349C8F0622EBDBC10037202B /* LaunchScreen.storyboard in Resources */,
+				349C8F0322EBDBC10037202B /* Assets.xcassets in Resources */,
+				349C8F0122EBDBC00037202B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349C8F0A22EBDBC10037202B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349C8F1522EBDBC10037202B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		349C8EF422EBDBC00037202B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349C8EFE22EBDBC00037202B /* ViewController.swift in Sources */,
+				349C8EFC22EBDBC00037202B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349C8F0822EBDBC10037202B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349C8F1122EBDBC10037202B /* semana_2__mini_retoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349C8F1322EBDBC10037202B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349C8F1C22EBDBC10037202B /* semana_2__mini_retoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		349C8F0E22EBDBC10037202B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349C8EF722EBDBC00037202B /* semana 2: mini reto */;
+			targetProxy = 349C8F0D22EBDBC10037202B /* PBXContainerItemProxy */;
+		};
+		349C8F1922EBDBC10037202B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349C8EF722EBDBC00037202B /* semana 2: mini reto */;
+			targetProxy = 349C8F1822EBDBC10037202B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		349C8EFF22EBDBC00037202B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349C8F0022EBDBC00037202B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		349C8F0422EBDBC10037202B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349C8F0522EBDBC10037202B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		349C8F1E22EBDBC10037202B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		349C8F1F22EBDBC10037202B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		349C8F2122EBDBC10037202B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WV34ZLAT5N;
+				INFOPLIST_FILE = "semana 2: mini reto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "so-develop.semana-2--mini-reto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		349C8F2222EBDBC10037202B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WV34ZLAT5N;
+				INFOPLIST_FILE = "semana 2: mini reto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "so-develop.semana-2--mini-reto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		349C8F2422EBDBC10037202B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WV34ZLAT5N;
+				INFOPLIST_FILE = "semana 2: mini retoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "so-develop.semana-2--mini-retoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/semana 2: mini reto.app/semana 2: mini reto";
+			};
+			name = Debug;
+		};
+		349C8F2522EBDBC10037202B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WV34ZLAT5N;
+				INFOPLIST_FILE = "semana 2: mini retoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "so-develop.semana-2--mini-retoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/semana 2: mini reto.app/semana 2: mini reto";
+			};
+			name = Release;
+		};
+		349C8F2722EBDBC10037202B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WV34ZLAT5N;
+				INFOPLIST_FILE = "semana 2: mini retoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "so-develop.semana-2--mini-retoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "semana 2: mini reto";
+			};
+			name = Debug;
+		};
+		349C8F2822EBDBC10037202B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WV34ZLAT5N;
+				INFOPLIST_FILE = "semana 2: mini retoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "so-develop.semana-2--mini-retoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "semana 2: mini reto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		349C8EF322EBDBC00037202B /* Build configuration list for PBXProject "semana 2: mini reto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349C8F1E22EBDBC10037202B /* Debug */,
+				349C8F1F22EBDBC10037202B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349C8F2022EBDBC10037202B /* Build configuration list for PBXNativeTarget "semana 2: mini reto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349C8F2122EBDBC10037202B /* Debug */,
+				349C8F2222EBDBC10037202B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349C8F2322EBDBC10037202B /* Build configuration list for PBXNativeTarget "semana 2: mini retoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349C8F2422EBDBC10037202B /* Debug */,
+				349C8F2522EBDBC10037202B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349C8F2622EBDBC10037202B /* Build configuration list for PBXNativeTarget "semana 2: mini retoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349C8F2722EBDBC10037202B /* Debug */,
+				349C8F2822EBDBC10037202B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 349C8EF022EBDBC00037202B /* Project object */;
+}
